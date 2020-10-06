@@ -12,13 +12,13 @@ const Main: React.FC = () => {
 
         <ProfileInfo>
           <strong>Jose Roberto</strong>
-          <span>612 Tweets</span>
+          <span>613 Tweets</span>
         </ProfileInfo>
       </Header>
 
-      {/*<ProfilePage />
+      {/* <ProfilePage /> */}
 
-       <BottomMenu>
+      {/* <BottomMenu>
         <HomeIcon />
         <SearchIcon />
         <BellIcon />
