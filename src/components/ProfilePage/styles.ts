@@ -102,4 +102,15 @@ export const CakeIcon = styled(Cake)`
   ${iconCSS}
 `;
 
-export const FollowAge = styled.div``;
+export const FollowAge = styled.div`
+  display: flex;
+
+  > span {
+    font-size: 15px;
+    color: var(--gray);
+
+    & + span {
+      margin-left: 20px;
+    }
+  }
+`;
