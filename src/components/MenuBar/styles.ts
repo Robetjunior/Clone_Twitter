@@ -1,6 +1,13 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
-import { Home, Notifications, Email, FavoriteBorder, Person, ExitToApp } from '../../styles/Icons'
+import { 
+  Home, 
+  Notifications, 
+  Email, 
+  FavoriteBorder, 
+  Person, 
+  ExitToApp
+} from '../../styles/Icons'
 
 export const Container = styled.div`
   
@@ -13,13 +20,20 @@ export const Logo = styled.div``;
 export const MenuBotton = styled.div``;
 
 
+const iconCSS = css`
+  flex-shrink: 0;
 
-export const HomeIcon = styled();
+  width: 30px;
+  height: 30px;
+  color: var(--white);
+`;
 
-export const BellIcon = styled();
+export const HomeIcon = styled(Home)`${iconCSS}`;
 
-export const EmailIcon = styled();
+export const BellIcon = styled(Notifications)`${iconCSS}`;
 
-export const FavoriteIcon = styled();
+export const EmailIcon = styled(Email)`${iconCSS}`;
 
-export const ProfileIcon= styled();
+export const FavoriteIcon = styled(FavoriteBorder)`${iconCSS}`;
+
+export const ProfileIcon = styled(Person)`${iconCSS}`;
