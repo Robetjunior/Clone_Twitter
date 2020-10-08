@@ -45,9 +45,9 @@ const MenuBar: React.FC = () => {
            <span>Perfil</span>
          </MenuBotton>
 
-         <Button>
-           <span>Twittar</span>
-         </Button>
+         {/* <Button>
+           <span>Tweetar</span>
+         </Button> */}
 
       </Topside>
     </Container>
