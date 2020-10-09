@@ -12,6 +12,6 @@ export const Container = styled.div`
     color: var(--gray);
 
     margin-bottom: 3px;
-    padding-top: 15px;
+    padding-top: 10px;
   }
 `;

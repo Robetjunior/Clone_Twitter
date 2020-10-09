@@ -25,7 +25,7 @@ const SideBar: React.FC = () => {
       <StickyBox>
         <Body>
           <List 
-            title="Talvez voce curta"
+            title="Noticias"
             elements={[
               <FollowSuggestion 
                 name="Camila Magalhaes"
@@ -48,12 +48,12 @@ const SideBar: React.FC = () => {
           ]} />
 
           <List 
-            title="Talvez voce curta"
+            title="Noticias"
             elements={[<News />, <News />, <News />
           ]} />
 
           <List 
-            title="Talvez voce curta"
+            title="Noticias"
             elements={[<News />, <News />, <News />
           ]} />
 
