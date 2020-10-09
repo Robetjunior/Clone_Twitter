@@ -1,6 +1,11 @@
 import React from 'react';
 
-import { Container, Avatar, Info, FollowButton } from './styles';
+import { 
+  Container, 
+  Avatar, 
+  Info, 
+  FollowButton 
+} from './styles';
 
 interface Props {
   name: string;
