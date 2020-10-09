@@ -25,8 +25,7 @@ const FollowSuggestion: React.FC<Props> = ({
           <strong>{name}</strong>
           <span>{nickname}</span>
         </Info>
-
-       
+        
       </div>
       <FollowButton outlined>Seguir</FollowButton>
     </Container>

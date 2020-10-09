@@ -7,6 +7,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  margin: 5px 15px;
   > div {
     display: flex;
     align-items: center;
@@ -37,5 +38,6 @@ export const  Info = styled.div`
 
 export const  FollowButton = styled(Button)`
   padding: 6px 17px;
+  margin-right: 30px;
 `;
 
