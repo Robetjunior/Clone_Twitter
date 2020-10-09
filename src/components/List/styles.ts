@@ -16,17 +16,18 @@ export const Item = styled.div`
   }
 
   &:first-child{
-    padding-top: 13px;
+    padding-top: 15px;
+    padding-bottom: 13px;
   }
 
   &:last-child{
-    padding-bottom: 17px;
+    padding-bottom: 13px;
   }
 `;
 
 export const Title = styled.span`
   font-weight: bold;
   font-size: 19px;
-  
+  padding: 15px 20px;
 `;
 
